@@ -2,7 +2,7 @@
 
 <%= turbo_stream_from @room %>
 
-<div id="messages" data-controller="reset_form">
+<div id="messages" class="flex flex-col">
   <%= render @room.messages %>
 </div>
 
